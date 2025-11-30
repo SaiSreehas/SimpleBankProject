@@ -17,7 +17,6 @@ public class Main {
         System.out.println("Enter Interest Rate:");
         double rate = sc.nextDouble();
 
-        // Creating SavingsAccount object
         SavingsAccount account = new SavingsAccount(accNo, name, bal, rate);
 
         int choice;
